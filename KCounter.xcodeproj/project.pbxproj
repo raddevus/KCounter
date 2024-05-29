@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E8EFFA2C079E9D00F377CC /* KCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8EFF92C079E9D00F377CC /* KCounterApp.swift */; };
+		A6E8EFFC2C079E9D00F377CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8EFFB2C079E9D00F377CC /* ContentView.swift */; };
+		A6E8EFFE2C079E9D00F377CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E8EFFD2C079E9D00F377CC /* Assets.xcassets */; };
+		A6E8F0012C079E9D00F377CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E8F0002C079E9D00F377CC /* Preview Assets.xcassets */; };
+		A6E8F00B2C079E9E00F377CC /* KCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F00A2C079E9E00F377CC /* KCounterTests.swift */; };
+		A6E8F0152C079E9E00F377CC /* KCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0142C079E9E00F377CC /* KCounterUITests.swift */; };
+		A6E8F0172C079E9E00F377CC /* KCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0162C079E9E00F377CC /* KCounterUITestsLaunchTests.swift */; };
+		A6E8F01D2C079E9E00F377CC /* KCounter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6E8F0222C079E9E00F377CC /* KCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0212C079E9E00F377CC /* KCounterApp.swift */; };
+		A6E8F0242C079E9E00F377CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0232C079E9E00F377CC /* ContentView.swift */; };
+		A6E8F0262C079E9E00F377CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E8F0252C079E9E00F377CC /* Assets.xcassets */; };
+		A6E8F0292C079E9E00F377CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E8F0282C079E9E00F377CC /* Preview Assets.xcassets */; };
+		A6E8F0332C079E9E00F377CC /* KCounter_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0322C079E9E00F377CC /* KCounter_Watch_AppTests.swift */; };
+		A6E8F03D2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F03C2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift */; };
+		A6E8F03F2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F03E2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6E8F0072C079E9D00F377CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E8EFEE2C079E9D00F377CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E8EFF52C079E9D00F377CC;
+			remoteInfo = KCounter;
+		};
+		A6E8F0112C079E9E00F377CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E8EFEE2C079E9D00F377CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E8EFF52C079E9D00F377CC;
+			remoteInfo = KCounter;
+		};
+		A6E8F01E2C079E9E00F377CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E8EFEE2C079E9D00F377CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E8F01B2C079E9E00F377CC;
+			remoteInfo = "KCounter Watch App";
+		};
+		A6E8F02F2C079E9E00F377CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E8EFEE2C079E9D00F377CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E8F01B2C079E9E00F377CC;
+			remoteInfo = "KCounter Watch App";
+		};
+		A6E8F0392C079E9E00F377CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E8EFEE2C079E9D00F377CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E8F01B2C079E9E00F377CC;
+			remoteInfo = "KCounter Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6E8F0452C079E9E00F377CC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A6E8F01D2C079E9E00F377CC /* KCounter Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6E8EFF62C079E9D00F377CC /* KCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8EFF92C079E9D00F377CC /* KCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterApp.swift; sourceTree = "<group>"; };
+		A6E8EFFB2C079E9D00F377CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6E8EFFD2C079E9D00F377CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6E8F0002C079E9D00F377CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6E8F0062C079E9D00F377CC /* KCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F00A2C079E9E00F377CC /* KCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterTests.swift; sourceTree = "<group>"; };
+		A6E8F0102C079E9E00F377CC /* KCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F0142C079E9E00F377CC /* KCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterUITests.swift; sourceTree = "<group>"; };
+		A6E8F0162C079E9E00F377CC /* KCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KCounter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F0212C079E9E00F377CC /* KCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterApp.swift; sourceTree = "<group>"; };
+		A6E8F0232C079E9E00F377CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6E8F0252C079E9E00F377CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6E8F0282C079E9E00F377CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6E8F02E2C079E9E00F377CC /* KCounter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KCounter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F0322C079E9E00F377CC /* KCounter_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounter_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A6E8F0382C079E9E00F377CC /* KCounter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KCounter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F03C2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounter_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A6E8F03E2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E8EFF32C079E9D00F377CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F0032C079E9D00F377CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F00D2C079E9E00F377CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F0192C079E9E00F377CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F02B2C079E9E00F377CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F0352C079E9E00F377CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E8EFED2C079E9D00F377CC = {
+			isa = PBXGroup;
+			children = (
+				A6E8EFF82C079E9D00F377CC /* KCounter */,
+				A6E8F0092C079E9D00F377CC /* KCounterTests */,
+				A6E8F0132C079E9E00F377CC /* KCounterUITests */,
+				A6E8F0202C079E9E00F377CC /* KCounter Watch App */,
+				A6E8F0312C079E9E00F377CC /* KCounter Watch AppTests */,
+				A6E8F03B2C079E9E00F377CC /* KCounter Watch AppUITests */,
+				A6E8EFF72C079E9D00F377CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E8EFF72C079E9D00F377CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8EFF62C079E9D00F377CC /* KCounter.app */,
+				A6E8F0062C079E9D00F377CC /* KCounterTests.xctest */,
+				A6E8F0102C079E9E00F377CC /* KCounterUITests.xctest */,
+				A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */,
+				A6E8F02E2C079E9E00F377CC /* KCounter Watch AppTests.xctest */,
+				A6E8F0382C079E9E00F377CC /* KCounter Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E8EFF82C079E9D00F377CC /* KCounter */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8EFF92C079E9D00F377CC /* KCounterApp.swift */,
+				A6E8EFFB2C079E9D00F377CC /* ContentView.swift */,
+				A6E8EFFD2C079E9D00F377CC /* Assets.xcassets */,
+				A6E8EFFF2C079E9D00F377CC /* Preview Content */,
+			);
+			path = KCounter;
+			sourceTree = "<group>";
+		};
+		A6E8EFFF2C079E9D00F377CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8F0002C079E9D00F377CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6E8F0092C079E9D00F377CC /* KCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8F00A2C079E9E00F377CC /* KCounterTests.swift */,
+			);
+			path = KCounterTests;
+			sourceTree = "<group>";
+		};
+		A6E8F0132C079E9E00F377CC /* KCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8F0142C079E9E00F377CC /* KCounterUITests.swift */,
+				A6E8F0162C079E9E00F377CC /* KCounterUITestsLaunchTests.swift */,
+			);
+			path = KCounterUITests;
+			sourceTree = "<group>";
+		};
+		A6E8F0202C079E9E00F377CC /* KCounter Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8F0212C079E9E00F377CC /* KCounterApp.swift */,
+				A6E8F0232C079E9E00F377CC /* ContentView.swift */,
+				A6E8F0252C079E9E00F377CC /* Assets.xcassets */,
+				A6E8F0272C079E9E00F377CC /* Preview Content */,
+			);
+			path = "KCounter Watch App";
+			sourceTree = "<group>";
+		};
+		A6E8F0272C079E9E00F377CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8F0282C079E9E00F377CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6E8F0312C079E9E00F377CC /* KCounter Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8F0322C079E9E00F377CC /* KCounter_Watch_AppTests.swift */,
+			);
+			path = "KCounter Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A6E8F03B2C079E9E00F377CC /* KCounter Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8F03C2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift */,
+				A6E8F03E2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "KCounter Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E8EFF52C079E9D00F377CC /* KCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E8F0462C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter" */;
+			buildPhases = (
+				A6E8EFF22C079E9D00F377CC /* Sources */,
+				A6E8EFF32C079E9D00F377CC /* Frameworks */,
+				A6E8EFF42C079E9D00F377CC /* Resources */,
+				A6E8F0452C079E9E00F377CC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E8F01F2C079E9E00F377CC /* PBXTargetDependency */,
+			);
+			name = KCounter;
+			productName = KCounter;
+			productReference = A6E8EFF62C079E9D00F377CC /* KCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6E8F0052C079E9D00F377CC /* KCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E8F0492C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounterTests" */;
+			buildPhases = (
+				A6E8F0022C079E9D00F377CC /* Sources */,
+				A6E8F0032C079E9D00F377CC /* Frameworks */,
+				A6E8F0042C079E9D00F377CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E8F0082C079E9D00F377CC /* PBXTargetDependency */,
+			);
+			name = KCounterTests;
+			productName = KCounterTests;
+			productReference = A6E8F0062C079E9D00F377CC /* KCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6E8F00F2C079E9E00F377CC /* KCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E8F04C2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounterUITests" */;
+			buildPhases = (
+				A6E8F00C2C079E9E00F377CC /* Sources */,
+				A6E8F00D2C079E9E00F377CC /* Frameworks */,
+				A6E8F00E2C079E9E00F377CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E8F0122C079E9E00F377CC /* PBXTargetDependency */,
+			);
+			name = KCounterUITests;
+			productName = KCounterUITests;
+			productReference = A6E8F0102C079E9E00F377CC /* KCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A6E8F01B2C079E9E00F377CC /* KCounter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E8F0422C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch App" */;
+			buildPhases = (
+				A6E8F0182C079E9E00F377CC /* Sources */,
+				A6E8F0192C079E9E00F377CC /* Frameworks */,
+				A6E8F01A2C079E9E00F377CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KCounter Watch App";
+			productName = "KCounter Watch App";
+			productReference = A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6E8F02D2C079E9E00F377CC /* KCounter Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E8F04F2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch AppTests" */;
+			buildPhases = (
+				A6E8F02A2C079E9E00F377CC /* Sources */,
+				A6E8F02B2C079E9E00F377CC /* Frameworks */,
+				A6E8F02C2C079E9E00F377CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E8F0302C079E9E00F377CC /* PBXTargetDependency */,
+			);
+			name = "KCounter Watch AppTests";
+			productName = "KCounter Watch AppTests";
+			productReference = A6E8F02E2C079E9E00F377CC /* KCounter Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6E8F0372C079E9E00F377CC /* KCounter Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E8F0522C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch AppUITests" */;
+			buildPhases = (
+				A6E8F0342C079E9E00F377CC /* Sources */,
+				A6E8F0352C079E9E00F377CC /* Frameworks */,
+				A6E8F0362C079E9E00F377CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E8F03A2C079E9E00F377CC /* PBXTargetDependency */,
+			);
+			name = "KCounter Watch AppUITests";
+			productName = "KCounter Watch AppUITests";
+			productReference = A6E8F0382C079E9E00F377CC /* KCounter Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E8EFEE2C079E9D00F377CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A6E8EFF52C079E9D00F377CC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A6E8F0052C079E9D00F377CC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A6E8EFF52C079E9D00F377CC;
+					};
+					A6E8F00F2C079E9E00F377CC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A6E8EFF52C079E9D00F377CC;
+					};
+					A6E8F01B2C079E9E00F377CC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A6E8F02D2C079E9E00F377CC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A6E8F01B2C079E9E00F377CC;
+					};
+					A6E8F0372C079E9E00F377CC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A6E8F01B2C079E9E00F377CC;
+					};
+				};
+			};
+			buildConfigurationList = A6E8EFF12C079E9D00F377CC /* Build configuration list for PBXProject "KCounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6E8EFED2C079E9D00F377CC;
+			productRefGroup = A6E8EFF72C079E9D00F377CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E8EFF52C079E9D00F377CC /* KCounter */,
+				A6E8F0052C079E9D00F377CC /* KCounterTests */,
+				A6E8F00F2C079E9E00F377CC /* KCounterUITests */,
+				A6E8F01B2C079E9E00F377CC /* KCounter Watch App */,
+				A6E8F02D2C079E9E00F377CC /* KCounter Watch AppTests */,
+				A6E8F0372C079E9E00F377CC /* KCounter Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E8EFF42C079E9D00F377CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8F0012C079E9D00F377CC /* Preview Assets.xcassets in Resources */,
+				A6E8EFFE2C079E9D00F377CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F0042C079E9D00F377CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F00E2C079E9E00F377CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F01A2C079E9E00F377CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8F0292C079E9E00F377CC /* Preview Assets.xcassets in Resources */,
+				A6E8F0262C079E9E00F377CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F02C2C079E9E00F377CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F0362C079E9E00F377CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E8EFF22C079E9D00F377CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8EFFC2C079E9D00F377CC /* ContentView.swift in Sources */,
+				A6E8EFFA2C079E9D00F377CC /* KCounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F0022C079E9D00F377CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8F00B2C079E9E00F377CC /* KCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F00C2C079E9E00F377CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8F0172C079E9E00F377CC /* KCounterUITestsLaunchTests.swift in Sources */,
+				A6E8F0152C079E9E00F377CC /* KCounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F0182C079E9E00F377CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8F0242C079E9E00F377CC /* ContentView.swift in Sources */,
+				A6E8F0222C079E9E00F377CC /* KCounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F02A2C079E9E00F377CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8F0332C079E9E00F377CC /* KCounter_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E8F0342C079E9E00F377CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8F03D2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift in Sources */,
+				A6E8F03F2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6E8F0082C079E9D00F377CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E8EFF52C079E9D00F377CC /* KCounter */;
+			targetProxy = A6E8F0072C079E9D00F377CC /* PBXContainerItemProxy */;
+		};
+		A6E8F0122C079E9E00F377CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E8EFF52C079E9D00F377CC /* KCounter */;
+			targetProxy = A6E8F0112C079E9E00F377CC /* PBXContainerItemProxy */;
+		};
+		A6E8F01F2C079E9E00F377CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E8F01B2C079E9E00F377CC /* KCounter Watch App */;
+			targetProxy = A6E8F01E2C079E9E00F377CC /* PBXContainerItemProxy */;
+		};
+		A6E8F0302C079E9E00F377CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E8F01B2C079E9E00F377CC /* KCounter Watch App */;
+			targetProxy = A6E8F02F2C079E9E00F377CC /* PBXContainerItemProxy */;
+		};
+		A6E8F03A2C079E9E00F377CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E8F01B2C079E9E00F377CC /* KCounter Watch App */;
+			targetProxy = A6E8F0392C079E9E00F377CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6E8F0402C079E9E00F377CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6E8F0412C079E9E00F377CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A6E8F0432C079E9E00F377CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KCounter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KCounter;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.newlibre.KCounter;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A6E8F0442C079E9E00F377CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KCounter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KCounter;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.newlibre.KCounter;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		A6E8F0472C079E9E00F377CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KCounter;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E8F0482C079E9E00F377CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KCounter;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E8F04A2C079E9E00F377CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KCounter";
+			};
+			name = Debug;
+		};
+		A6E8F04B2C079E9E00F377CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KCounter";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E8F04D2C079E9E00F377CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCounter;
+			};
+			name = Debug;
+		};
+		A6E8F04E2C079E9E00F377CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCounter;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E8F0502C079E9E00F377CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KCounter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCounter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KCounter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A6E8F0512C079E9E00F377CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KCounter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCounter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KCounter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		A6E8F0532C079E9E00F377CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KCounter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KCounter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A6E8F0542C079E9E00F377CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SRF5TLB8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KCounter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KCounter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E8EFF12C079E9D00F377CC /* Build configuration list for PBXProject "KCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8F0402C079E9E00F377CC /* Debug */,
+				A6E8F0412C079E9E00F377CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E8F0422C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8F0432C079E9E00F377CC /* Debug */,
+				A6E8F0442C079E9E00F377CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E8F0462C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8F0472C079E9E00F377CC /* Debug */,
+				A6E8F0482C079E9E00F377CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E8F0492C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8F04A2C079E9E00F377CC /* Debug */,
+				A6E8F04B2C079E9E00F377CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E8F04C2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8F04D2C079E9E00F377CC /* Debug */,
+				A6E8F04E2C079E9E00F377CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E8F04F2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8F0502C079E9E00F377CC /* Debug */,
+				A6E8F0512C079E9E00F377CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E8F0522C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8F0532C079E9E00F377CC /* Debug */,
+				A6E8F0542C079E9E00F377CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E8EFEE2C079E9D00F377CC /* Project object */;
+}
