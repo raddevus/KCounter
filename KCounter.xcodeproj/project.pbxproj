@@ -11,7 +11,6 @@
 		A6E8EFFC2C079E9D00F377CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8EFFB2C079E9D00F377CC /* ContentView.swift */; };
 		A6E8EFFE2C079E9D00F377CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E8EFFD2C079E9D00F377CC /* Assets.xcassets */; };
 		A6E8F0012C079E9D00F377CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E8F0002C079E9D00F377CC /* Preview Assets.xcassets */; };
-		A6E8F00B2C079E9E00F377CC /* KCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F00A2C079E9E00F377CC /* KCounterTests.swift */; };
 		A6E8F0152C079E9E00F377CC /* KCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0142C079E9E00F377CC /* KCounterUITests.swift */; };
 		A6E8F0172C079E9E00F377CC /* KCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0162C079E9E00F377CC /* KCounterUITestsLaunchTests.swift */; };
 		A6E8F01D2C079E9E00F377CC /* KCounter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -22,6 +21,9 @@
 		A6E8F0332C079E9E00F377CC /* KCounter_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0322C079E9E00F377CC /* KCounter_Watch_AppTests.swift */; };
 		A6E8F03D2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F03C2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift */; };
 		A6E8F03F2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F03E2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift */; };
+		A6E8F0562C079EF000F377CC /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0552C079EF000F377CC /* Connector.swift */; };
+		A6E8F0582C07AFA100F377CC /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0552C079EF000F377CC /* Connector.swift */; };
+		A6E8F0592C07B0B400F377CC /* KCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F00A2C079E9E00F377CC /* KCounterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,7 @@
 		A6E8F0382C079E9E00F377CC /* KCounter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KCounter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8F03C2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounter_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		A6E8F03E2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6E8F0552C079EF000F377CC /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,7 @@
 			children = (
 				A6E8EFF92C079E9D00F377CC /* KCounterApp.swift */,
 				A6E8EFFB2C079E9D00F377CC /* ContentView.swift */,
+				A6E8F0552C079EF000F377CC /* Connector.swift */,
 				A6E8EFFD2C079E9D00F377CC /* Assets.xcassets */,
 				A6E8EFFF2C079E9D00F377CC /* Preview Content */,
 			);
@@ -465,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E8F0562C079EF000F377CC /* Connector.swift in Sources */,
 				A6E8EFFC2C079E9D00F377CC /* ContentView.swift in Sources */,
 				A6E8EFFA2C079E9D00F377CC /* KCounterApp.swift in Sources */,
 			);
@@ -474,7 +479,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E8F00B2C079E9E00F377CC /* KCounterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 			files = (
 				A6E8F0172C079E9E00F377CC /* KCounterUITestsLaunchTests.swift in Sources */,
 				A6E8F0152C079E9E00F377CC /* KCounterUITests.swift in Sources */,
+				A6E8F0592C07B0B400F377CC /* KCounterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E8F0582C07AFA100F377CC /* Connector.swift in Sources */,
 				A6E8F0242C079E9E00F377CC /* ContentView.swift in Sources */,
 				A6E8F0222C079E9E00F377CC /* KCounterApp.swift in Sources */,
 			);
@@ -654,6 +660,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;

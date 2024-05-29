@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var connectivity = Connector()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 30) {
+            Text("Game Counter")
+            Text(connectivity.receivedText)
         }
-        .padding()
+        .font(.title)
     }
 }
 
