@@ -34,15 +34,72 @@ struct ContentView: View {
                 Task {
                     if let loaded = try? await avatarItem?.loadTransferable(type: Image.self) {
                         avatarImage = loaded
-                        print(avatarImage)
+                        saveImageToDisk(image: avatarImage?.getUIImage(newSize: CGSize(width: 1500,height: 1800)), filename: "kcounterBackground")
+                        
                     } else {
                         print("Failed")
+                        
                     }
                 }
             }
+        }.onAppear{
+            loadImage()
+            
         }
     }
     
+    func loadImage() {
+            
+            let fileURL = getDocumentsDirectory().appendingPathComponent("kcounterBackground")
+            
+            if FileManager.default.fileExists(atPath: fileURL.path) {
+                // Load image from disk
+                if let imageData = try? Data(contentsOf: fileURL),
+                   let loadedImage = UIImage(data: imageData) {
+                    let tempImage = Image("test")
+                    avatarImage = Image(uiImage: loadedImage)
+                    print("Loaded image from disk: \(fileURL)")
+                    return
+                }
+            }
+            
+        }
+    
+    func saveImageToDisk(image: UIImage?, filename:String) {
+        print("YikeS!")
+            guard let image = image,
+                  let imageData = image.jpegData(compressionQuality: 0.9) else {
+                return
+            }
+            
+            let fileURL = getDocumentsDirectory().appendingPathComponent(filename)
+            print(fileURL)
+            
+            do {
+                try imageData.write(to: fileURL)
+                print("Image saved to disk: \(fileURL)")
+            } catch {
+                print("Failed to save image to disk: \(error)")
+            }
+        }
+    func getDocumentsDirectory() -> URL {
+            let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+            return paths[0]
+        }
+    
+    
+    
+}
+
+extension Image {
+    @MainActor
+    func getUIImage(newSize: CGSize) -> UIImage? {
+        let image = resizable()
+            .scaledToFill()
+            .frame(width: newSize.width, height: newSize.height)
+            .clipped()
+        return ImageRenderer(content: image).uiImage
+    }
 }
 
 #Preview {
