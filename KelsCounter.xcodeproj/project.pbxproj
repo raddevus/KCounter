@@ -13,7 +13,7 @@
 		A6E8F0012C079E9D00F377CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E8F0002C079E9D00F377CC /* Preview Assets.xcassets */; };
 		A6E8F0152C079E9E00F377CC /* KCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0142C079E9E00F377CC /* KCounterUITests.swift */; };
 		A6E8F0172C079E9E00F377CC /* KCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0162C079E9E00F377CC /* KCounterUITestsLaunchTests.swift */; };
-		A6E8F01D2C079E9E00F377CC /* KCounter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6E8F01D2C079E9E00F377CC /* KelsCounter.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A6E8F01C2C079E9E00F377CC /* KelsCounter.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A6E8F0222C079E9E00F377CC /* KCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0212C079E9E00F377CC /* KCounterApp.swift */; };
 		A6E8F0242C079E9E00F377CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E8F0232C079E9E00F377CC /* ContentView.swift */; };
 		A6E8F0262C079E9E00F377CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E8F0252C079E9E00F377CC /* Assets.xcassets */; };
@@ -71,7 +71,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				A6E8F01D2C079E9E00F377CC /* KCounter Watch App.app in Embed Watch Content */,
+				A6E8F01D2C079E9E00F377CC /* KelsCounter.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,24 +79,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A6E8EFF62C079E9D00F377CC /* KCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8EFF62C079E9D00F377CC /* KelsCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KelsCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8EFF92C079E9D00F377CC /* KCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterApp.swift; sourceTree = "<group>"; };
 		A6E8EFFB2C079E9D00F377CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6E8EFFD2C079E9D00F377CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6E8F0002C079E9D00F377CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A6E8F0062C079E9D00F377CC /* KCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F0062C079E9D00F377CC /* KelsCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelsCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8F00A2C079E9E00F377CC /* KCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterTests.swift; sourceTree = "<group>"; };
-		A6E8F0102C079E9E00F377CC /* KCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F0102C079E9E00F377CC /* KelsCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelsCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8F0142C079E9E00F377CC /* KCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterUITests.swift; sourceTree = "<group>"; };
 		A6E8F0162C079E9E00F377CC /* KCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KCounter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F01C2C079E9E00F377CC /* KelsCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KelsCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8F0212C079E9E00F377CC /* KCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounterApp.swift; sourceTree = "<group>"; };
 		A6E8F0232C079E9E00F377CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6E8F0252C079E9E00F377CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6E8F0282C079E9E00F377CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A6E8F02E2C079E9E00F377CC /* KCounter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KCounter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F02E2C079E9E00F377CC /* KelsCounter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KelsCounter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8F0322C079E9E00F377CC /* KCounter_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounter_Watch_AppTests.swift; sourceTree = "<group>"; };
-		A6E8F0382C079E9E00F377CC /* KCounter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KCounter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8F0382C079E9E00F377CC /* KelsCounter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KelsCounter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E8F03C2C079E9E00F377CC /* KCounter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounter_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		A6E8F03E2C079E9E00F377CC /* KCounter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCounter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A6E8F0552C079EF000F377CC /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
@@ -164,12 +164,12 @@
 		A6E8EFF72C079E9D00F377CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6E8EFF62C079E9D00F377CC /* KCounter.app */,
-				A6E8F0062C079E9D00F377CC /* KCounterTests.xctest */,
-				A6E8F0102C079E9E00F377CC /* KCounterUITests.xctest */,
-				A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */,
-				A6E8F02E2C079E9E00F377CC /* KCounter Watch AppTests.xctest */,
-				A6E8F0382C079E9E00F377CC /* KCounter Watch AppUITests.xctest */,
+				A6E8EFF62C079E9D00F377CC /* KelsCounter.app */,
+				A6E8F0062C079E9D00F377CC /* KelsCounterTests.xctest */,
+				A6E8F0102C079E9E00F377CC /* KelsCounterUITests.xctest */,
+				A6E8F01C2C079E9E00F377CC /* KelsCounter.app */,
+				A6E8F02E2C079E9E00F377CC /* KelsCounter Watch AppTests.xctest */,
+				A6E8F0382C079E9E00F377CC /* KelsCounter Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,9 +250,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6E8EFF52C079E9D00F377CC /* KCounter */ = {
+		A6E8EFF52C079E9D00F377CC /* KelsCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E8F0462C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter" */;
+			buildConfigurationList = A6E8F0462C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounter" */;
 			buildPhases = (
 				A6E8EFF22C079E9D00F377CC /* Sources */,
 				A6E8EFF32C079E9D00F377CC /* Frameworks */,
@@ -264,14 +264,14 @@
 			dependencies = (
 				A6E8F01F2C079E9E00F377CC /* PBXTargetDependency */,
 			);
-			name = KCounter;
+			name = KelsCounter;
 			productName = KCounter;
-			productReference = A6E8EFF62C079E9D00F377CC /* KCounter.app */;
+			productReference = A6E8EFF62C079E9D00F377CC /* KelsCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6E8F0052C079E9D00F377CC /* KCounterTests */ = {
+		A6E8F0052C079E9D00F377CC /* KelsCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E8F0492C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounterTests" */;
+			buildConfigurationList = A6E8F0492C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounterTests" */;
 			buildPhases = (
 				A6E8F0022C079E9D00F377CC /* Sources */,
 				A6E8F0032C079E9D00F377CC /* Frameworks */,
@@ -282,14 +282,14 @@
 			dependencies = (
 				A6E8F0082C079E9D00F377CC /* PBXTargetDependency */,
 			);
-			name = KCounterTests;
+			name = KelsCounterTests;
 			productName = KCounterTests;
-			productReference = A6E8F0062C079E9D00F377CC /* KCounterTests.xctest */;
+			productReference = A6E8F0062C079E9D00F377CC /* KelsCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6E8F00F2C079E9E00F377CC /* KCounterUITests */ = {
+		A6E8F00F2C079E9E00F377CC /* KelsCounterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E8F04C2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounterUITests" */;
+			buildConfigurationList = A6E8F04C2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounterUITests" */;
 			buildPhases = (
 				A6E8F00C2C079E9E00F377CC /* Sources */,
 				A6E8F00D2C079E9E00F377CC /* Frameworks */,
@@ -300,14 +300,14 @@
 			dependencies = (
 				A6E8F0122C079E9E00F377CC /* PBXTargetDependency */,
 			);
-			name = KCounterUITests;
+			name = KelsCounterUITests;
 			productName = KCounterUITests;
-			productReference = A6E8F0102C079E9E00F377CC /* KCounterUITests.xctest */;
+			productReference = A6E8F0102C079E9E00F377CC /* KelsCounterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A6E8F01B2C079E9E00F377CC /* KCounter Watch App */ = {
+		A6E8F01B2C079E9E00F377CC /* KelsCounter Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E8F0422C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch App" */;
+			buildConfigurationList = A6E8F0422C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounter Watch App" */;
 			buildPhases = (
 				A6E8F0182C079E9E00F377CC /* Sources */,
 				A6E8F0192C079E9E00F377CC /* Frameworks */,
@@ -317,14 +317,14 @@
 			);
 			dependencies = (
 			);
-			name = "KCounter Watch App";
+			name = "KelsCounter Watch App";
 			productName = "KCounter Watch App";
-			productReference = A6E8F01C2C079E9E00F377CC /* KCounter Watch App.app */;
+			productReference = A6E8F01C2C079E9E00F377CC /* KelsCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6E8F02D2C079E9E00F377CC /* KCounter Watch AppTests */ = {
+		A6E8F02D2C079E9E00F377CC /* KelsCounter Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E8F04F2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch AppTests" */;
+			buildConfigurationList = A6E8F04F2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounter Watch AppTests" */;
 			buildPhases = (
 				A6E8F02A2C079E9E00F377CC /* Sources */,
 				A6E8F02B2C079E9E00F377CC /* Frameworks */,
@@ -335,14 +335,14 @@
 			dependencies = (
 				A6E8F0302C079E9E00F377CC /* PBXTargetDependency */,
 			);
-			name = "KCounter Watch AppTests";
+			name = "KelsCounter Watch AppTests";
 			productName = "KCounter Watch AppTests";
-			productReference = A6E8F02E2C079E9E00F377CC /* KCounter Watch AppTests.xctest */;
+			productReference = A6E8F02E2C079E9E00F377CC /* KelsCounter Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6E8F0372C079E9E00F377CC /* KCounter Watch AppUITests */ = {
+		A6E8F0372C079E9E00F377CC /* KelsCounter Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E8F0522C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch AppUITests" */;
+			buildConfigurationList = A6E8F0522C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounter Watch AppUITests" */;
 			buildPhases = (
 				A6E8F0342C079E9E00F377CC /* Sources */,
 				A6E8F0352C079E9E00F377CC /* Frameworks */,
@@ -353,9 +353,9 @@
 			dependencies = (
 				A6E8F03A2C079E9E00F377CC /* PBXTargetDependency */,
 			);
-			name = "KCounter Watch AppUITests";
+			name = "KelsCounter Watch AppUITests";
 			productName = "KCounter Watch AppUITests";
-			productReference = A6E8F0382C079E9E00F377CC /* KCounter Watch AppUITests.xctest */;
+			productReference = A6E8F0382C079E9E00F377CC /* KelsCounter Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -392,7 +392,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A6E8EFF12C079E9D00F377CC /* Build configuration list for PBXProject "KCounter" */;
+			buildConfigurationList = A6E8EFF12C079E9D00F377CC /* Build configuration list for PBXProject "KelsCounter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -405,12 +405,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6E8EFF52C079E9D00F377CC /* KCounter */,
-				A6E8F0052C079E9D00F377CC /* KCounterTests */,
-				A6E8F00F2C079E9E00F377CC /* KCounterUITests */,
-				A6E8F01B2C079E9E00F377CC /* KCounter Watch App */,
-				A6E8F02D2C079E9E00F377CC /* KCounter Watch AppTests */,
-				A6E8F0372C079E9E00F377CC /* KCounter Watch AppUITests */,
+				A6E8EFF52C079E9D00F377CC /* KelsCounter */,
+				A6E8F0052C079E9D00F377CC /* KelsCounterTests */,
+				A6E8F00F2C079E9E00F377CC /* KelsCounterUITests */,
+				A6E8F01B2C079E9E00F377CC /* KelsCounter Watch App */,
+				A6E8F02D2C079E9E00F377CC /* KelsCounter Watch AppTests */,
+				A6E8F0372C079E9E00F377CC /* KelsCounter Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -524,27 +524,27 @@
 /* Begin PBXTargetDependency section */
 		A6E8F0082C079E9D00F377CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6E8EFF52C079E9D00F377CC /* KCounter */;
+			target = A6E8EFF52C079E9D00F377CC /* KelsCounter */;
 			targetProxy = A6E8F0072C079E9D00F377CC /* PBXContainerItemProxy */;
 		};
 		A6E8F0122C079E9E00F377CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6E8EFF52C079E9D00F377CC /* KCounter */;
+			target = A6E8EFF52C079E9D00F377CC /* KelsCounter */;
 			targetProxy = A6E8F0112C079E9E00F377CC /* PBXContainerItemProxy */;
 		};
 		A6E8F01F2C079E9E00F377CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6E8F01B2C079E9E00F377CC /* KCounter Watch App */;
+			target = A6E8F01B2C079E9E00F377CC /* KelsCounter Watch App */;
 			targetProxy = A6E8F01E2C079E9E00F377CC /* PBXContainerItemProxy */;
 		};
 		A6E8F0302C079E9E00F377CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6E8F01B2C079E9E00F377CC /* KCounter Watch App */;
+			target = A6E8F01B2C079E9E00F377CC /* KelsCounter Watch App */;
 			targetProxy = A6E8F02F2C079E9E00F377CC /* PBXContainerItemProxy */;
 		};
 		A6E8F03A2C079E9E00F377CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6E8F01B2C079E9E00F377CC /* KCounter Watch App */;
+			target = A6E8F01B2C079E9E00F377CC /* KelsCounter Watch App */;
 			targetProxy = A6E8F0392C079E9E00F377CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -602,12 +602,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
 		};
@@ -648,6 +650,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -657,11 +660,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Release;
 		};
@@ -676,16 +681,15 @@
 				DEVELOPMENT_TEAM = 2SRF5TLB8K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = KCounter;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.newlibre.KCounter;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.newlibre.KelsCounter;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounter.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KelsCounter.watchkitapp;
+				PRODUCT_NAME = KelsCounter;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -706,16 +710,15 @@
 				DEVELOPMENT_TEAM = 2SRF5TLB8K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = KCounter;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.newlibre.KCounter;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.newlibre.KelsCounter;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounter.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KelsCounter.watchkitapp;
+				PRODUCT_NAME = KelsCounter;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -750,7 +753,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KelsCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -783,7 +786,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KelsCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -804,13 +807,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KelsCounterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KCounter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelsCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelsCounter";
 			};
 			name = Debug;
 		};
@@ -825,13 +828,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KelsCounterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KCounter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelsCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelsCounter";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -846,7 +849,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KelsCounterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -866,7 +869,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KCounterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newlibre.KelsCounterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -887,13 +890,13 @@
 				DEVELOPMENT_TEAM = 2SRF5TLB8K;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KCounter-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KelsCounter-Watch-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCounter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KCounter Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelsCounter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelsCounter Watch App";
 				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
@@ -908,13 +911,13 @@
 				DEVELOPMENT_TEAM = 2SRF5TLB8K;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KCounter-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KelsCounter-Watch-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCounter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KCounter Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KelsCounter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KelsCounter Watch App";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
@@ -929,7 +932,7 @@
 				DEVELOPMENT_TEAM = 2SRF5TLB8K;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KCounter-Watch-AppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KelsCounter-Watch-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -949,7 +952,7 @@
 				DEVELOPMENT_TEAM = 2SRF5TLB8K;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KCounter-Watch-AppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newlibre.KelsCounter-Watch-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -964,7 +967,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6E8EFF12C079E9D00F377CC /* Build configuration list for PBXProject "KCounter" */ = {
+		A6E8EFF12C079E9D00F377CC /* Build configuration list for PBXProject "KelsCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8F0402C079E9E00F377CC /* Debug */,
@@ -973,7 +976,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E8F0422C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch App" */ = {
+		A6E8F0422C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounter Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8F0432C079E9E00F377CC /* Debug */,
@@ -982,7 +985,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E8F0462C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter" */ = {
+		A6E8F0462C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8F0472C079E9E00F377CC /* Debug */,
@@ -991,7 +994,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E8F0492C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounterTests" */ = {
+		A6E8F0492C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8F04A2C079E9E00F377CC /* Debug */,
@@ -1000,7 +1003,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E8F04C2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounterUITests" */ = {
+		A6E8F04C2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8F04D2C079E9E00F377CC /* Debug */,
@@ -1009,7 +1012,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E8F04F2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch AppTests" */ = {
+		A6E8F04F2C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounter Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8F0502C079E9E00F377CC /* Debug */,
@@ -1018,7 +1021,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E8F0522C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KCounter Watch AppUITests" */ = {
+		A6E8F0522C079E9E00F377CC /* Build configuration list for PBXNativeTarget "KelsCounter Watch AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E8F0532C079E9E00F377CC /* Debug */,

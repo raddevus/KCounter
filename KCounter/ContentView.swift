@@ -56,7 +56,6 @@ struct ContentView: View {
                 // Load image from disk
                 if let imageData = try? Data(contentsOf: fileURL),
                    let loadedImage = UIImage(data: imageData) {
-                    let tempImage = Image("test")
                     avatarImage = Image(uiImage: loadedImage)
                     print("Loaded image from disk: \(fileURL)")
                     return
