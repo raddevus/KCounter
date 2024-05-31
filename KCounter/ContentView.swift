@@ -23,7 +23,12 @@ struct ContentView: View {
                         .edgesIgnoringSafeArea(.all)
             VStack(spacing: 30) {
                 Text("Game Counter")
-                Text(connectivity.receivedText)
+                ZStack{
+                    Text(connectivity.receivedText)
+                        .foregroundColor(.white)
+                    Text(connectivity.receivedText)
+                        .offset(x:-3,y:-3)
+                }
             }
             .font(.title)
             VStack {
